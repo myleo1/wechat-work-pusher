@@ -1,0 +1,11 @@
+{
+  "rest": {
+    "port": 9000,
+    "base": "wechat-work-pusher"
+  },
+  "cropId": "",
+  "cropSecret": "",
+  "agentId": "",
+  "receiver": "",
+  "token": ""
+}
