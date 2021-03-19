@@ -73,5 +73,5 @@ func Push2WechatCard(to, msg string) {
 ```
 ## 效果演示
 
-example.jpg![image](https://user-images.githubusercontent.com/66349676/111748431-7eadf380-88cb-11eb-8590-73e1414d98e6.png)
+![image](https://user-images.githubusercontent.com/66349676/111748431-7eadf380-88cb-11eb-8590-73e1414d98e6.png)
 
