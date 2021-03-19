@@ -65,7 +65,7 @@ func Push2WechatCard(to, msg string) {
       FormData: map[string]string{
          "to":      to,
          "title":		title
-				 "description": fmt.Sprintf("<div class=\"gray\">%s\n</div> <div class=\"normal\">恭喜您%s~,学号[%s]打卡成功！\n</div><div class=\"highlight\">点击卡片进入云战役打卡官网查看详情~</div>", time.Now().Format(timekit.TimeLayoutYMD), name, id),
+	 "description": fmt.Sprintf("<div class=\"gray\">%s\n</div> <div class=\"normal\">恭喜您%s~,学号[%s]打卡成功！\n</div><div class=\"highlight\">点击卡片进入云战役打卡官网查看详情~</div>", time.Now().Format(timekit.TimeLayoutYMD), name, id),
         "url": "https://www.google.com",
       },
    })
