@@ -14,7 +14,7 @@
 
 #### config.json配置
 
-1、将准备工作共获取到的cropId、cropSecret、agentId填入相应位置
+1、将准备工作中获取到的cropId、cropSecret、agentId填入相应位置
 
 2、receiver为默认接收者的微信号，对应通讯录中的帐号
 
@@ -22,7 +22,7 @@
 
 #### Docker部署
 
-    docker run -d -v /home/config.json:/root/config.json -p 9000:9000 --restart-always --name wechat-work-pusher myleo1/wechat-work-pusher
+    docker run -d -v /home/config.json:/root/config.json -p 9000:9000 --restart=always --name wechat-work-pusher myleo1/wechat-work-pusher
 
 > 注意：替换/home/config.json 为config.json路径
 
