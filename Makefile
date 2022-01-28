@@ -19,6 +19,10 @@ build:
 	@GOOS=linux GOARCH=amd64 go build -o ${BINARY} ${LDFLAGS}
 	@echo "[ok] build ${BINARY}"
 
+build_arm:
+	@GOOS=linux GOARCH=arm go build -o ${BINARY} ${LDFLAGS}
+	@echo "[ok] build_arm ${BINARY}"
+
 build_osx:
 	@go build -trimpath -o ${BINARY} ${LDFLAGS}
 	@echo "[ok] build_osx"
