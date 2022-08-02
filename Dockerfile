@@ -1,5 +1,5 @@
 FROM alpine:latest
-LABEL maintainer="leo <admin@leow.tech>" \
+LABEL maintainer="leo <leo@leosgo.com>" \
 	version="v1.0.0" \
 	description="Wechat-Work-Pusher"
 WORKDIR /root
